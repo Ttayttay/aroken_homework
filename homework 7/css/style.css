@@ -1,0 +1,35 @@
+body {
+
+    background: #191a1e;
+}
+.quad {
+    transform: translateY(350px);
+    margin: auto;
+    background: black;
+    width: 200px;
+    height: 200px;
+}
+
+.line{
+    transform: translate(-400px, -150px);
+    background: white;
+    width: 0%;
+    height: 10px;
+}
+
+.quad:hover .line{
+    width: 500%;
+    transition: all 0.5s;
+}
+
+.quad:hover {
+    border-radius: 50%;
+    background: #008000;
+    transition: 0.5s 0.5s;
+}
+.text{
+    margin-top: 38%;
+    margin-left: 30%;
+    font-family: sans-serif;
+    font-size: 30px;
+}
